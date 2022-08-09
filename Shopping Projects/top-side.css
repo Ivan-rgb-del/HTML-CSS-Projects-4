@@ -1,0 +1,34 @@
+.top-bar{
+    background: var(--dark);
+    margin: auto;
+    padding: 10px 0;
+}
+
+.top-bar .grid .right{
+    display: flex;
+}
+
+.top-bar .grid .left i{
+    color: white;
+    margin: 0 7px;
+}
+
+.top-bar .grid .right i,
+.top-bar .grid .right a{
+    color: white;
+}
+
+.up-line{
+    color: white;
+    margin: 0 15px;
+}
+
+.top-bar .grid .right a{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.top-bar .grid .right i{
+    margin-right: 7px;
+}

@@ -1,0 +1,27 @@
+.contact{
+    padding: 40px 0;
+}
+
+.contact-box-1{
+    margin-left: 100px;
+}
+
+.contact-box-1 .contact-info{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-box-1 .contact-info i{
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.contact-box-1 .contact-info h3{
+    color: var(--dark);
+    margin: 10px 0;
+}
+
+.contact-box-1 .contact-info p{
+    color: var(--light);
+}

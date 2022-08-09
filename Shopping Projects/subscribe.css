@@ -1,0 +1,51 @@
+.subscribe{
+    padding: 40px 0;
+    background: var(--primary);
+}
+
+.subscribe .subscribe-box h3{
+    color: var(--dark);
+    font-size: 2rem;
+}
+
+.subscribe .subscribe-box p{
+    color: var(--dark);
+    line-height: 1.5;
+}
+
+.subscribe .subscribe-box div{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    margin: 15px 0;
+}
+
+.subscribe .subscribe-box div input{
+    padding: 15px 0;
+    border: 0;
+    width: 100%;
+}
+
+.subscribe .subscribe-box div input::placeholder{
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.subscribe .subscribe-box div button{
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 25px;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    transition: 250ms ease-in-out;
+}
+
+.subscribe .subscribe-box div button:hover{
+    background: var(--dark);
+    color: var(--primary);
+    opacity: 0.9;
+}

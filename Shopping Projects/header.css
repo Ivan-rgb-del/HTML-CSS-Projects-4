@@ -1,0 +1,25 @@
+.header{
+    padding: 20px 0;
+}
+
+.header-box img{
+    width: 150px;
+}
+
+.header-box{
+    display: flex;
+    align-items: center;
+}
+
+.header-box .div-i span i{
+    font-size: 30px;
+}
+
+.header-box .div-i{
+    margin-right: 15px;
+}
+
+.header-box .div-txt h4,
+.header-box .div-txt p{
+    margin: 5px 0;
+}
